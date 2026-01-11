@@ -2,7 +2,7 @@
   "name": "edgetx-theme",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://edriskus.github.io/edgetx-theme-creator/",
+  "homepage": "https://podstava.github.io/edgetx-theme-creator/",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
@@ -57,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "postcss": "^8.4.31"
   }
 }
