@@ -78,10 +78,11 @@ function App() {
         }}
       >
         <Typography gutterBottom variant="body2" color="textSecondary">
-          This is an experimental tool that has only been tested with{" "}
-          <b>Edge TX 2.5</b> and on <b>Radiomaster TX16S</b>. The resulting
-          theme might display differently using different radios and might not
-          work with upcoming EdgeTX releases.
+          This tool supports <b>EdgeTX v2.5</b> (legacy) and{" "}
+          <b>v2.6 - v2.11</b> (current). The v2.6+ format uses the modern
+          folder-based theme structure compatible with all recent EdgeTX
+          versions. Themes were tested on <b>Radiomaster TX16S</b> but should
+          work on all color LCD radios.
         </Typography>
       </Box>
       <Grid container spacing={2}>

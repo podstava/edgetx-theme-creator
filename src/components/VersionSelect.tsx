@@ -29,15 +29,24 @@ export default function VersionSelect() {
         EdgeTX v{version} <ArrowDropDown sx={{ marginLeft: 0.5 }} />
       </Button>
       <Menu anchorEl={anchorEl} open={!!anchorEl} onClose={handleClose}>
-        <MenuItem onClick={handleVersion("2.5")}>v2.5</MenuItem>
-        <MenuItem onClick={handleVersion("2.6")}>
-          v2.6
+        <MenuItem onClick={handleVersion("2.5")}>
+          v2.5
           <Typography
             variant="caption"
             color="textSecondary"
             sx={{ marginLeft: 0.5 }}
           >
-            (experimental)
+            (legacy)
+          </Typography>
+        </MenuItem>
+        <MenuItem onClick={handleVersion("2.6")}>
+          v2.6+
+          <Typography
+            variant="caption"
+            color="textSecondary"
+            sx={{ marginLeft: 0.5 }}
+          >
+            (v2.6 - v2.11)
           </Typography>
         </MenuItem>
       </Menu>

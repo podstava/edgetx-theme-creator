@@ -8,7 +8,7 @@ import {
 
 export type Version = "2.5" | "2.6";
 
-const defaultVersion: Version = "2.5";
+const defaultVersion: Version = "2.6";
 
 interface VersionContextBundle {
   version: Version;
